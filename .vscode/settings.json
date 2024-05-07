@@ -51,5 +51,5 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "Code23rocket.sln"
+    "dotnet.defaultSolution": "RocketGame.sln"
 }
