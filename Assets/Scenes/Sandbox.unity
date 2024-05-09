@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.034376, g: 0.03529064, b: 0.046889536, a: 1}
+  m_IndirectSpecularColor: {r: 0.034376193, g: 0.03529132, b: 0.04689207, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -307,7 +307,7 @@ Transform:
   m_GameObject: {fileID: 74808229}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.47, y: 9.661, z: 0}
+  m_LocalPosition: {x: 0.52, y: 9.661, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -942,7 +942,7 @@ Transform:
   m_GameObject: {fileID: 1959224998}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.89, y: 7.571, z: 0}
+  m_LocalPosition: {x: -4.62, y: 7.571, z: 0}
   m_LocalScale: {x: 2.2567, y: 2.102, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -960,7 +960,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4a4a1a7b7f2ad4da1adbd0f48daeacd8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  movementVector: {x: 5, y: 0, z: 0}
+  movementVector: {x: 67, y: 0, z: 0}
   period: 2
 --- !u!1 &2063661883
 GameObject:
@@ -1075,6 +1075,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2113103783489394704, guid: f9a490861df615b47a2ce06edf3ec995, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6009807980331186377, guid: f9a490861df615b47a2ce06edf3ec995, type: 3}
       propertyPath: m_LocalPosition.x
       value: -8.8
@@ -1118,6 +1122,10 @@ PrefabInstance:
     - target: {fileID: 6778761862756235041, guid: f9a490861df615b47a2ce06edf3ec995, type: 3}
       propertyPath: m_Name
       value: roket
+      objectReference: {fileID: 0}
+    - target: {fileID: 7266424161895762511, guid: f9a490861df615b47a2ce06edf3ec995, type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
