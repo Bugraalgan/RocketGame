@@ -827,6 +827,7 @@ GameObject:
   - component: {fileID: 1959225001}
   - component: {fileID: 1959225000}
   - component: {fileID: 1959224999}
+  - component: {fileID: 1959225004}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -947,6 +948,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1959225004
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1959224998}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a4a1a7b7f2ad4da1adbd0f48daeacd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  movementFactor: 0
+  movementVector: {x: 5, y: 0, z: 0}
 --- !u!1 &2063661883
 GameObject:
   m_ObjectHideFlags: 0
@@ -1066,7 +1081,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6009807980331186377, guid: f9a490861df615b47a2ce06edf3ec995, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 10
+      value: 5.32
       objectReference: {fileID: 0}
     - target: {fileID: 6009807980331186377, guid: f9a490861df615b47a2ce06edf3ec995, type: 3}
       propertyPath: m_LocalPosition.z
